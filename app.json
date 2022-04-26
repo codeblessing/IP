@@ -1,0 +1,38 @@
+{
+  "id": "10efedc9-b790-4c6c-b841-5a9673d03736",
+  "name": "Grupa 038",
+  "publisher": "Kwiatkowski 145356, Strzelczyk 145217",
+  "version": "1.0.0.0",
+  "target": "OnPrem",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "a41facb4-aa1f-4f4b-a6d5-a574d9a33911",
+      "publisher": "IT.integro sp. z o.o.",
+      "name": "Polish Functionality - Starter Pack",
+      "version": "1.0.1.150"
+      }
+  ],
+  "features": ["TranslationFile"],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50100
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "8.0"
+}
