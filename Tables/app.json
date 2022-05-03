@@ -1,9 +1,8 @@
 {
-  "id": "10efedc9-b790-4c6c-b841-5a9673d03736",
-  "name": "Grupa 038",
-  "publisher": "Kwiatkowski 145356, Strzelczyk 145217",
+  "id": "eb411cc2-3330-4633-bb47-8488706b7bdf",
+  "name": "grupa038",
+  "publisher": "Kwiatkowski_145356_Strzelczyk_145217",
   "version": "1.0.0.0",
-  "target": "OnPrem",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -19,7 +18,6 @@
       "version": "1.0.1.150"
       }
   ],
-  "features": ["TranslationFile"],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "19.0.0.0",
@@ -34,5 +32,7 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
-  "runtime": "8.0"
+  "runtime": "8.0",
+  "target": "OnPrem",
+  "features": ["TranslationFile"]
 }
