@@ -1,5 +1,6 @@
 Table 50010 Seminar
 {
+    Caption = 'Seminar';
     fields
     {
         field(1; "Code"; Code[20])
@@ -13,6 +14,7 @@ Table 50010 Seminar
         field(3; "Seminar Duration"; Decimal)
         {
             Caption = 'Seminar Duration';
+            DecimalPlaces = 0 : 1;
         }
         field(4; "Minimum Participants"; Integer)
         {
@@ -33,6 +35,7 @@ Table 50010 Seminar
         field(8; "Last Date Modified"; Date)
         {
             Caption = 'Last Date Modified';
+            Editable = false;
         }
         field(9; "Seminar Price"; Decimal)
         {
@@ -42,7 +45,7 @@ Table 50010 Seminar
 
     keys
     {
-        key(Key1; "Code")
+        key(PK; "Code")
         {
             Clustered = true;
         }

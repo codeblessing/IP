@@ -434,6 +434,246 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Salesperson Ext. - Field Type Filter - Property OptionCaption</note>
           <target>Konto K/G,Zapas,Zasób</target>
         </trans-unit>
+        <trans-unit id="Page 1670044723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blank Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BlankPage - Property Caption</note>
+          <target>Pusta strona</target>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Property Caption</note>
+          <target>Strona testowa</target>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Control 318613646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Control Details - Property Caption</note>
+          <target>Szczegóły</target>
+        </trans-unit>
+        <trans-unit id="Table 3202231842 - Field 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Customer Table - Field Address - Property Caption</note>
+          <target>Adres</target>
+        </trans-unit>
+        <trans-unit id="Table 3202231842 - Field 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Customer Table - Field City - Property Caption</note>
+          <target>Miasto</target>
+        </trans-unit>
+        <trans-unit id="Table 3202231842 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Customer Table - Field Currency Code - Property Caption</note>
+          <target>Kod waluty</target>
+        </trans-unit>
+        <trans-unit id="Table 3202231842 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Customer Table - Field Name - Property Caption</note>
+          <target>Nazwa</target>
+        </trans-unit>
+        <trans-unit id="Table 3202231842 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Customer Table - Field No. - Property Caption</note>
+          <target>Nr</target>
+        </trans-unit>
+        <trans-unit id="Table 3202231842 - Field 3986423421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Customer Table - Field Phone No. - Property Caption</note>
+          <target>Nr telefonu</target>
+        </trans-unit>
+        <trans-unit id="Page 3952060208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Customer Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page My Customer Card - Property Caption</note>
+          <target>Moja kartoteka nabywcy</target>
+        </trans-unit>
+        <trans-unit id="Page 3952060208 - Control 3448339824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page My Customer Card - Control Other - Property Caption</note>
+          <target>Inne</target>
+        </trans-unit>
+        <trans-unit id="Page 3300050966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Customer List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page My Customer List - Property Caption</note>
+          <target>Moja lista nabywców</target>
+        </trans-unit>
+        <trans-unit id="Table 1968408797 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Customer Comment - Field Comment - Property Caption</note>
+          <target>Komentarz</target>
+        </trans-unit>
+        <trans-unit id="Table 1968408797 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Customer Comment - Field Line No. - Property Caption</note>
+          <target>Nr linii</target>
+        </trans-unit>
+        <trans-unit id="Table 1968408797 - Field 2511183177 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table My Customer Comment - Field My Customer No. - Property Caption</note>
+          <target>Mój numer nabywcy</target>
+        </trans-unit>
+        <trans-unit id="Page 3952060208 - Control 503024588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page My Customer Card - Control Comments - Property Caption</note>
+          <target>Komentarze</target>
+        </trans-unit>
+        <trans-unit id="Page 3952060208 - Action 510657237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Company Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page My Customer Card - Action Show Company Name - Property Caption</note>
+          <target>Wyświetl nazwę firmy</target>
+        </trans-unit>
+        <trans-unit id="Page 3952060208 - Action 1554554962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page My Customer Card - Action Items - Property Caption</note>
+          <target>Zapasy</target>
+        </trans-unit>
+        <trans-unit id="Page 3081262998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Registration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Property Caption</note>
+          <target>Kartoteka rejestracji szkolenia</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - Field 513339096 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration,Planning,Finished,Cancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - Field Status - Property OptionCaption</note>
+          <target>Rejestracja,Planowane,Ukończono,Anulowano</target>
+        </trans-unit>
+        <trans-unit id="Page 3800278800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Registration List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration List - Property Caption</note>
+          <target>Lista rejestracji szkoleń</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - Field No. - Property Caption</note>
+          <target>Nr</target>
+        </trans-unit>
+        <trans-unit id="Page 929436366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Room List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Room List - Property Caption</note>
+          <target>Lista sal szkoleniowych</target>
+        </trans-unit>
+        <trans-unit id="Page 1337529160 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Room Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Room Card - Property Caption</note>
+          <target>Kartoteka sali szkoleniowej</target>
+        </trans-unit>
+        <trans-unit id="Page 2757097226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instructors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Instructors - Property Caption</note>
+          <target>Instruktorzy</target>
+        </trans-unit>
+        <trans-unit id="Page 1173659623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar List - Property Caption</note>
+          <target>Lista szkoleń</target>
+        </trans-unit>
+        <trans-unit id="Page 845999677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Card - Property Caption</note>
+          <target>Kartoteka szkolenia</target>
+        </trans-unit>
+        <trans-unit id="Page 3952060208 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page My Customer Card - Control General - Property Caption</note>
+          <target>Ogólne</target>
+        </trans-unit>
+        <trans-unit id="Page 1337529160 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Room Card - Control General - Property Caption</note>
+          <target>Ogólne</target>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Control General - Property Caption</note>
+          <target>Ogólne</target>
+        </trans-unit>
+        <trans-unit id="Table 1753254716 - Field 3916955335 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal/External</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Room - Field Internal/External - Property Caption</note>
+          <target>Wewnętrzna/Zewnętrzna</target>
+        </trans-unit>
+        <trans-unit id="Table 1753254716 - Field 3916955335 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal,External</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Room - Field Internal/External - Property OptionCaption</note>
+          <target>Wewnętrzna,Zewnętrzna</target>
+        </trans-unit>
+        <trans-unit id="Page 1337529160 - Control 3050372732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Communication</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Room Card - Control Communication - Property Caption</note>
+          <target>Komunikacja</target>
+        </trans-unit>
+        <trans-unit id="Page 3081262998 - Control 1753254716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Room</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Control Seminar Room - Property Caption</note>
+          <target>Sala szkoleniowa</target>
+        </trans-unit>
+        <trans-unit id="Page 3081262998 - Control 3606140129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Control Customers - Property Caption</note>
+          <target>Wiersze</target>
+        </trans-unit>
+        <trans-unit id="Page 3081262998 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Control General - Property Caption</note>
+          <target>Ogólne</target>
+        </trans-unit>
+        <trans-unit id="Page 4119905856 - Action 3930027771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Manager - Action Lists - Property Caption</note>
+          <target>Listy</target>
+        </trans-unit>
+        <trans-unit id="Page 4119905856 - Action 2973329650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tasks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Manager - Action Tasks - Property Caption</note>
+          <target>Zadania</target>
+        </trans-unit>
+        <trans-unit id="Page 4119905856 - Action 2176459415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Manager - Action Reports - Property Caption</note>
+          <target>Raporty</target>
+        </trans-unit>
+        <trans-unit id="Profile 4119905856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile Seminar Manager - Property Caption</note>
+          <target>Manager szkoleń</target>
+        </trans-unit>
       </group>
     </body>
   </file>

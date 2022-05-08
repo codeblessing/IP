@@ -1,6 +1,6 @@
 Table 50030 "Seminar Room"
 {
-   
+
     fields
     {
         field(1; "Code"; Code[20])
@@ -26,10 +26,12 @@ Table 50030 "Seminar Room"
         field(6; "Post Code"; Code[20])
         {
             Caption = 'Post Code';
+            TableRelation = "Post Code";
         }
         field(7; "Country/Region Code"; Code[10])
         {
             Caption = 'Country/Region Code';
+            TableRelation = "Country/Region";
         }
         field(8; "Phone No."; Text[30])
         {
@@ -47,9 +49,11 @@ Table 50030 "Seminar Room"
         {
             Caption = 'Maximum Participants';
         }
-        field(12; "Internal/External"; Text[250])
+        field(12; "Internal/External"; Option)
         {
             Caption = 'Internal/External';
+            OptionMembers = "Internal","External";
+            OptionCaption = 'Internal,External';
         }
     }
 
