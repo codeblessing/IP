@@ -4,7 +4,7 @@ page 50007 "Seminar Card"
     PageType = Card;
     SourceTable = Seminar;
     UsageCategory = Documents;
-    DataCaptionFields = "Code", Name;
+
 
     layout
     {

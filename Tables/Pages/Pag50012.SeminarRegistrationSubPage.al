@@ -3,6 +3,7 @@ page 50012 "Seminar Registration SubPage"
     Caption = 'Seminar Registration';
     PageType = ListPart;
     SourceTable = "Seminar Registration Line";
+    AutoSplitKey = true;
 
     layout
     {

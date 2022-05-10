@@ -14,6 +14,37 @@ Table 50040 "Seminar Registration Header"
         {
             Caption = 'Seminar Code';
             TableRelation = Seminar;
+
+            trigger OnValidate()
+            var
+                Seminar: Record Seminar;
+                SeminarRegLine: Record "Seminar Registration Line";
+            begin
+                if Seminar.Get("Seminar Code") then begin
+                    Seminar.TestField(Seminar.Blocked, false);
+                    "Seminar Name" := Seminar.Name;
+                    "Seminar Duration" := Seminar."Seminar Duration";
+                    "Minimum Participants" := Seminar."Minimum Participants";
+                    "Maximum Participants" := Seminar."Maximum Participants";
+                    Validate("Seminar Price", Seminar."Seminar Price");
+                end else begin
+                    "Seminar Name" := '';
+                    "Seminar Duration" := 0;
+                    "Minimum Participants" := 0;
+                    "Maximum Participants" := 0;
+                    "Seminar Price" := 0;
+                end;
+
+                SeminarRegLine.Reset();
+                SeminarRegLine.SetRange(SeminarRegLine."Seminar Registration No.", "No.");
+                if SeminarRegLine.FindSet() then
+                    repeat
+                        if SeminarRegLine.Registered then
+                            Error(SeminarWithRegisteredLinesModifyErr);
+                    until SeminarRegLine.Next() = 0;
+
+
+            end;
         }
         field(4; "Seminar Name"; Text[50])
         {
@@ -105,4 +136,7 @@ Table 50040 "Seminar Registration Header"
             Clustered = true;
         }
     }
+
+    var
+        SeminarWithRegisteredLinesModifyErr: label 'Seminars with registersd lines cannot be modified';
 }

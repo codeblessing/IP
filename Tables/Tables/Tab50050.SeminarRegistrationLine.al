@@ -75,7 +75,7 @@ Table 50050 "Seminar Registration Line"
         field(15; "Invoice No."; Code[20])
         {
             Caption = 'Invoice No.';
-            TableRelation = "Sales Header" where("Document Type" = filter(Invoice));
+            TableRelation = "Sales Header" where("Document Type" = const(Invoice));
             Editable = false;
         }
     }

@@ -1,6 +1,8 @@
 Table 50010 Seminar
 {
     Caption = 'Seminar';
+    DataCaptionFields = "Code", Name;
+
     fields
     {
         field(1; "Code"; Code[20])
@@ -10,6 +12,12 @@ Table 50010 Seminar
         field(2; Name; Text[50])
         {
             Caption = 'Name';
+
+            trigger OnValidate()
+            begin
+                if ("Search Name" <> UpperCase(Name)) then
+                    "Search Name" := Name;
+            end;
         }
         field(3; "Seminar Duration"; Decimal)
         {
@@ -36,11 +44,14 @@ Table 50010 Seminar
         {
             Caption = 'Last Date Modified';
             Editable = false;
+
+
         }
         field(9; "Seminar Price"; Decimal)
         {
             Caption = 'Seminar Price';
         }
+
     }
 
     keys
@@ -50,4 +61,10 @@ Table 50010 Seminar
             Clustered = true;
         }
     }
+
+    trigger OnModify()
+    begin
+        "Last Date Modified" := WorkDate();
+    end;
+
 }

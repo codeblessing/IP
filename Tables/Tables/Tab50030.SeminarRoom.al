@@ -27,6 +27,13 @@ Table 50030 "Seminar Room"
         {
             Caption = 'Post Code';
             TableRelation = "Post Code";
+
+            trigger OnValidate()
+            var
+                DummyCountry: Text[30];
+            begin
+                PostCode.ValidatePostCode(City, "Post Code", DummyCountry, "Country/Region Code", (CurrFieldNo <> 0) and GuiAllowed);
+            end;
         }
         field(7; "Country/Region Code"; Code[10])
         {
@@ -64,5 +71,8 @@ Table 50030 "Seminar Room"
             Clustered = true;
         }
     }
+
+    var
+        PostCode: Record "Post Code";
 }
 

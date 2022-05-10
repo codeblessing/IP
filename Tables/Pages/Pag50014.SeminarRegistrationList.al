@@ -3,6 +3,7 @@ page 50014 "Seminar Registration List"
     ApplicationArea = All;
     Caption = 'Seminar Registration List';
     PageType = List;
+    Editable = false;
     SourceTable = "Seminar Registration Header";
     UsageCategory = Lists;
     CardPageId = "Seminar Registration Card";

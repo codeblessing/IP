@@ -35,7 +35,7 @@ page 50015 "Seminar Manager"
                 action("Rejestracja szkolenia")
                 {
                     ApplicationArea = All;
-                    RunObject = page "Seminar Registration Card";
+                    RunObject = page "Seminar Registration List";
                     RunPageMode = View;
                 }
             }
