@@ -86,6 +86,29 @@ Table 50040 "Seminar Registration Header"
         {
             Caption = 'Seminar Room Code';
             TableRelation = "Seminar Room";
+
+            trigger OnValidate()
+            var
+                SeminarRoom: Record "Seminar Room";
+            begin
+                if SeminarRoom.Get("Seminar Room Code") then begin
+                    "Seminar Room Name" := SeminarRoom.Name;
+                    "Seminar Room Address" := SeminarRoom.Address;
+                    "Seminar Room Address 2" := SeminarRoom."Address 2";
+                    "Seminar Room Post Code" := SeminarRoom."Post Code";
+                    "Seminar Room City" := SeminarRoom.City;
+                    "Seminar Room Phone No." := SeminarRoom."Phone No.";
+                end else begin
+                    "Seminar Room Name" := '';
+                    "Seminar Room Address" := '';
+                    "Seminar Room Address 2" := '';
+                    "Seminar Room Post Code" := '';
+                    "Seminar Room City" := '';
+                    "Seminar Room Phone No." := '';
+                end;
+            end;
+
+
         }
         field(12; "Seminar Room Name"; Text[50])
         {
@@ -139,4 +162,11 @@ Table 50040 "Seminar Registration Header"
 
     var
         SeminarWithRegisteredLinesModifyErr: label 'Seminars with registersd lines cannot be modified';
+
+
+    trigger OnInsert()
+    begin
+        "Posting Date" := WorkDate();
+
+    end;
 }

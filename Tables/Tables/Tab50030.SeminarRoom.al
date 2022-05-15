@@ -1,5 +1,6 @@
 Table 50030 "Seminar Room"
 {
+    DataCaptionFields = "Code", "Name";
 
     fields
     {
