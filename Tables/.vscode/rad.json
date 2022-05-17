@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50050,"Kind":10,"Name":"Seminar Registration Line","PackagePath":"/src/Tables/Tab50050.SeminarRegistrationLine.al"},{"Id":50005,"Kind":15,"Name":"Seminar Participants Exp XML","PackagePath":"/src/XMLports/Xml50005.SeminarParticipantsExportXML.al"}],"Removed":[]}

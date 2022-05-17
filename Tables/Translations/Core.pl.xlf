@@ -380,6 +380,90 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - Field Invoice No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1193173812 - Field 532835786 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatic,4-Speed,5-Speed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Field Transmission - Property OptionCaption</note>
+          <target>Automatyczna,4-biegowa,5-biegowa</target>
+        </trans-unit>
+        <trans-unit id="Profile 4119905856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile Seminar Manager - Property Caption</note>
+          <target>Manager szkoleń</target>
+        </trans-unit>
+         <trans-unit id="Table 2143111931 - NamedType 1599990870" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date can be changed only if status is Planned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType DateChangeWhenPlanned</note>
+          <target>Data rozpoczęcia może być ustawiona tylko wtedy, gdy szkolenie posiada status: planowane.</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 2689322119" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record name cannot be modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType RecordNameCannotBeModified</note>
+          <target>Nazwa rekordu nie może zostać zmieniona.</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 1013771017" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Planned seminars can be deleted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType SeminarCannotBeDeletedIfPlanned</note>
+          <target>Tylko szkolenia o statusie: planowane mogą być usunięte.</target>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - NamedType 2054973617" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot change Bill-to Customer No. if record is registered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType BillChangeIfNotRegistered</note>
+          <target>Nie można zmienić numeru odbiorcy faktury jeśli rekord jest zarejestrowany.</target>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - NamedType 1579366658" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registered record cannot be deleted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType RegisteredRecordCannotBeDeleted</note>
+          <target>Zarejestrowany rekord nie może być usunięty.</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 1156847510" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to change seminar price?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType ResponseConfirmMessage</note>
+          <target>Czy chcesz zmienić cenę szkolenia?</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 3268077726" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar is cancelled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType SemiarCancelled</note>
+          <target>Szkolenie jest anulowane.</target>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Action 1212579173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export G/L Account to XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Export G/L Account to XML - Property Caption</note>
+          <target>Exportuj konta K/G do XML.</target>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Action 3460761827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Vehicles from XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Import Vehicles from XML - Property Caption</note>
+          <target>Importuj Pojazdy z XML.</target>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Action 1638863865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export G/L Account Fixed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Export G/L Account Fixed - Property Caption</note>
+          <target>Exportuj konta K/G do formatu tekstowego.</target>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Action 3637493073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export G/L Account Variable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Export G/L Account Variable - Property Caption</note>
+          <target>Exportuj konta K/G do formatu tekstowego csv.</target>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Action 417752332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Vehicles Fixed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Import Vehicles Fixed - Property Caption</note>
+          <target>Importuj pojazdy z pliku csv.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

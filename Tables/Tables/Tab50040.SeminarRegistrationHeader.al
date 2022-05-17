@@ -209,16 +209,6 @@ Table 50040 "Seminar Registration Header"
 
 
 
-    trigger OnModify()
-    begin
-        if Status = Status::Planning then begin
-            StartingDateEditable := true;
-        end else begin
-            StartingDateEditable := false;
-        end;
-
-    end;
-
     trigger OnInsert()
     begin
         "Posting Date" := WorkDate();

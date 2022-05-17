@@ -45,6 +45,7 @@ Table 50050 "Seminar Registration Line"
                 Contact: Record Contact;
             begin
                 ContactBusinessRelation.Reset();
+                Contact.Reset();
                 ContactBusinessRelation.SetRange("Link to Table", ContactBusinessRelation."Link to Table"::Customer);
                 ContactBusinessRelation.SetRange("No.", "Bill-to Customer No.");
 

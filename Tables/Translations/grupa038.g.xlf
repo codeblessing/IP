@@ -1063,6 +1063,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Control General - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 629907935 - Action 1638863865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export G/L Account Fixed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Export G/L Account Fixed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Action 1212579173 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export G/L Account to XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Export G/L Account to XML - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Action 3637493073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export G/L Account Variable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Export G/L Account Variable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Action 417752332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Vehicles Fixed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Import Vehicles Fixed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 629907935 - Action 3460761827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Vehicles from XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Import Vehicles from XML - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 405542470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vehicle List</source>
           <note from="Developer" annotates="general" priority="2"></note>
