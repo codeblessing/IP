@@ -168,8 +168,33 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar - Field Seminar Price - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 1599990870" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date can be changed only if status is Planned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType DateChangeWhenPlanned</note>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 2689322119" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record name cannot be modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType RecordNameCannotBeModified</note>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 1156847510" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to change seminar price?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType ResponseConfirmMessage</note>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 3268077726" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar is cancelled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType SemiarCancelled</note>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 1013771017" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Planned seminars can be deleted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType SeminarCannotBeDeletedIfPlanned</note>
+        </trans-unit>
         <trans-unit id="Table 2143111931 - NamedType 3882435575" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Seminars with registersd lines cannot be modified</source>
+          <source>Seminars with registered lines cannot be modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType SeminarWithRegisteredLinesModifyErr</note>
         </trans-unit>
@@ -277,6 +302,16 @@
           <source>Registration,Planning,Finished,Cancelled</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - Field Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - NamedType 2054973617" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot change Bill-to Customer No. if record is not registered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType BillChangeIfNotRegistered</note>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - NamedType 1579366658" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registered record cannot be deleted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType RegisteredRecordCannotBeDeleted</note>
         </trans-unit>
         <trans-unit id="Table 2235904756 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>

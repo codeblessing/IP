@@ -674,6 +674,48 @@
           <note from="Xliff Generator" annotates="general" priority="3">Profile Seminar Manager - Property Caption</note>
           <target>Manager szkoleń</target>
         </trans-unit>
+         <trans-unit id="Table 2143111931 - NamedType 1599990870" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date can be changed only if status is Planned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType DateChangeWhenPlanned</note>
+          <target>Data rozpoczęcia może być ustawiona tylko wtedy, gdy szkolenie posiada status: planowane.</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 2689322119" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record name cannot be modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType RecordNameCannotBeModified</note>
+          <target>Nazwa rekordu nie może zostać zmieniona.</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 1013771017" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Planned seminars can be deleted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType SeminarCannotBeDeletedIfPlanned</note>
+          <target>Tylko szkolenia o statusie: planowane mogą być usunięte.</target>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - NamedType 2054973617" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot change Bill-to Customer No. if record is registered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType BillChangeIfNotRegistered</note>
+          <target>Nie można zmienić numeru odbiorcy faktury jeśli rekord jest zarejestrowany.</target>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - NamedType 1579366658" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registered record cannot be deleted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType RegisteredRecordCannotBeDeleted</note>
+          <target>Zarejestrowany rekord nie może być usunięty.</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 1156847510" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to change seminar price?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType ResponseConfirmMessage</note>
+          <target>Czy chcesz zmienić cenę szkolenia?</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - NamedType 3268077726" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar is cancelled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType SemiarCancelled</note>
+          <target>Szkolenie jest anulowane.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

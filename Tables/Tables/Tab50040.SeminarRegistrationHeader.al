@@ -9,6 +9,14 @@ Table 50040 "Seminar Registration Header"
         field(2; "Starting Date"; Date)
         {
             Caption = 'Starting Date';
+            trigger OnValidate()
+
+            begin
+                if Status <> Status::Planning then begin
+                    Error(DateChangeWhenPlanned);
+                end;
+            end;
+
         }
         field(3; "Seminar Code"; Code[20])
         {
@@ -54,6 +62,11 @@ Table 50040 "Seminar Registration Header"
         {
             Caption = 'Instructor Code';
             TableRelation = Instructor;
+
+            trigger OnValidate()
+            begin
+                CalcFields("Instructor Name");
+            end;
         }
         field(6; "Instructor Name"; Text[100])
         {
@@ -142,6 +155,29 @@ Table 50040 "Seminar Registration Header"
         field(19; "Seminar Price"; Decimal)
         {
             Caption = 'Seminar Price';
+
+            trigger OnValidate()
+            var
+                SeminarRegLine: Record "Seminar Registration Line";
+                response: Boolean;
+            begin
+                if Status <> Status::Cancelled then begin
+                    response := Confirm(ResponseConfirmMessage);
+
+                    if response then begin
+                        SeminarRegLine.Reset();
+                        SeminarRegLine.SetRange(SeminarRegLine."Seminar Registration No.", "No.");
+                        if SeminarRegLine.FindSet() then
+                            repeat
+                                if not SeminarRegLine.Registered then
+                                    SeminarRegLine.UpdatePrices("Seminar Price");
+                            until SeminarRegLine.Next() = 0;
+                        Rec.CalcFields(Amount);
+                    end;
+                end else begin
+                    Message(SemiarCancelled);
+                end;
+            end;
         }
         field(20; Amount; Decimal)
         {
@@ -161,12 +197,48 @@ Table 50040 "Seminar Registration Header"
     }
 
     var
-        SeminarWithRegisteredLinesModifyErr: label 'Seminars with registersd lines cannot be modified';
+        SeminarWithRegisteredLinesModifyErr: label 'Seminars with registered lines cannot be modified.';
+        RecordNameCannotBeModified: label 'Record name cannot be modified.';
+        SeminarCannotBeDeletedIfPlanned: label 'Only Planned seminars can be deleted';
+        StartingDateEditable: Boolean;
+        DateChangeWhenPlanned: Label 'Starting Date can be changed only if status is Planned';
 
+        SemiarCancelled: Label 'Seminar is cancelled.';
+
+        ResponseConfirmMessage: Label 'Do you want to change seminar price?';
+
+
+
+    trigger OnModify()
+    begin
+        if Status = Status::Planning then begin
+            StartingDateEditable := true;
+        end else begin
+            StartingDateEditable := false;
+        end;
+
+    end;
 
     trigger OnInsert()
     begin
         "Posting Date" := WorkDate();
-
     end;
+
+    trigger OnRename()
+    begin
+        Error(RecordNameCannotBeModified);
+    end;
+
+    trigger OnDelete()
+    begin
+        if Status <> Status::Planning then
+            Error(SeminarCannotBeDeletedIfPlanned);
+    end;
+
+    procedure UpdateAmount()
+    begin
+        Modify();
+        Rec.CalcFields(Amount);
+    end;
+
 }
