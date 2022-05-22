@@ -464,6 +464,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Import Vehicles Fixed - Property Caption</note>
           <target>Importuj pojazdy z pliku csv.</target>
         </trans-unit>
+        <trans-unit id="Page 3800278800 - Action 1267078297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export seminar participants.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration List - Action Seminar Participants Exp XML - Property Caption</note>
+          <target>Eksportuj uczestników szkoleń.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

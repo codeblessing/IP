@@ -868,6 +868,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration List - Control Status - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3800278800 - Action 1267078297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export seminar participants.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration List - Action Seminar Participants Exp XML - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3011511659 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Registration</source>
           <note from="Developer" annotates="general" priority="2"></note>

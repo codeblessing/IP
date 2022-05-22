@@ -52,4 +52,22 @@ page 50014 "Seminar Registration List"
             }
         }
     }
+
+    actions
+    {
+        area(Processing)
+        {
+            action("Seminar Participants Exp XML")
+            {
+                Caption = 'Export seminar participants.';
+                ApplicationArea = All;
+                Image = XMLFile;
+
+                trigger OnAction()
+                begin
+                    Xmlport.Run(Xmlport::"Seminar Participants Exp XML");
+                end;
+            }
+        }
+    }
 }
