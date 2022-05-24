@@ -444,7 +444,7 @@
           <source>Import Vehicles from XML</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Import Vehicles from XML - Property Caption</note>
-          <target>Importuj Pojazdy z XML.</target>
+          <target>Importuj Pojazdy z XML.</target> 
         </trans-unit>
         <trans-unit id="Page 629907935 - Action 1638863865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Export G/L Account Fixed</source>
