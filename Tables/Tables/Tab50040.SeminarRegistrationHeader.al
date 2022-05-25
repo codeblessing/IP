@@ -219,10 +219,20 @@ Table 50040 "Seminar Registration Header"
         Error(RecordNameCannotBeModified);
     end;
 
+
     trigger OnDelete()
+    var
+        SeminarRegLine: Record "Seminar Registration Line";
     begin
         if Status <> Status::Planning then
             Error(SeminarCannotBeDeletedIfPlanned);
+
+        SeminarRegLine.Reset();
+        SeminarRegLine.SetRange(SeminarRegLine."Seminar Registration No.", "No.");
+        if SeminarRegLine.FindSet() then
+            repeat
+                SeminarRegLine.Delete();
+            until SeminarRegLine.Next() = 0;
     end;
 
     procedure UpdateAmount()
