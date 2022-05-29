@@ -493,6 +493,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Field VIN - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1997620480 - NamedType 187372530" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar '%1' participant '%2'</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Seminar Management - NamedType DescriptionTemplateTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997620480 - NamedType 1373183175" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice lines have been created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Seminar Management - NamedType InvoiceLinesCreatedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997620480 - NamedType 566395159" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice has not been created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Seminar Management - NamedType InvoiceNotCreatedMsg</note>
+        </trans-unit>
         <trans-unit id="Page 1670044723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blank Page</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -827,6 +842,11 @@
           <source>Specifies the value of the Seminar Room Post Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Control Seminar Room Post Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3081262998 - Action 473656501 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create sale invoice.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Action Create invoice. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3800278800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Registration List</source>

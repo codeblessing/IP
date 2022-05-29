@@ -125,4 +125,25 @@ page 50013 "Seminar Registration Card"
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action("Create invoice.")
+            {
+                Caption = 'Create sale invoice.';
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    Invoice: Codeunit "Seminar Management";
+                    Header: Record "Seminar Registration Header";
+                begin
+                    Header.Get("No.");
+                    Invoice.CreateSalesInvoice(Header);
+                end;
+            }
+        }
+    }
+
 }

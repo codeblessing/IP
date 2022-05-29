@@ -470,6 +470,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration List - Action Seminar Participants Exp XML - Property Caption</note>
           <target>Eksportuj uczestników szkoleń.</target>
         </trans-unit>
+        <trans-unit id="Page 3081262998 - Action 473656501 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create sale invoice.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Action Create invoice. - Property Caption</note>
+          <target>Utwórz fakturę sprzedaży.</target>
+        </trans-unit>
       </group>
     </body>
   </file>
