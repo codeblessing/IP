@@ -39,7 +39,7 @@ Codeunit 50010 "Seminar Management"
                 //TODO: ogranicz przetwarzane SalesHeader tylko do dokumentów typu faktury
                 SalesHeader.SetRange("Document Type", SalesHeader."Document Type"::Invoice);
                 //TODO: ogranicz przetwarzane SalesHeader tylko do dokumentów wystawionych na nabywcę zgodnego z polem "Nr odbiorcy faktury" w wierszu rejestracji
-                SalesHeader.SetRange("Bill-to Customer No.", SeminarRegLine."Bill-to Customer No.");
+                SalesHeader.SetRange(SalesHeader."Bill-to Customer No.", SeminarRegLine."Bill-to Customer No.");
                 SalesHeader.SetRange("External Document No.", PSeminarRegHeader."No.");
 
 
@@ -47,8 +47,9 @@ Codeunit 50010 "Seminar Management"
                 if not SalesHeader.FindFirst() then begin
                     SalesHeader.Init();
                     //TODO: ustaw by dokument był typu "faktura"
-                    SalesHeader."Document Type" := "Sales Document Type"::Invoice;
-                    SalesHeader."No." := '';
+
+                    SalesHeader.Validate(SalesHeader."Document Type", "Sales Document Type"::Invoice);
+                    SalesHeader.Validate(SalesHeader."No.", '');
                     SalesHeader.Validate("Posting Date", PSeminarRegHeader."Posting Date");
                     SalesHeader.Validate("Document Date", PSeminarRegHeader."Posting Date");
                     SalesHeader.Validate("ITI Sales Date", PSeminarRegHeader."Posting Date");
@@ -73,19 +74,20 @@ Codeunit 50010 "Seminar Management"
                 SalesLine.Validate("Sell-to Customer No.", SalesHeader."Sell-to Customer No.");
 
                 //TODO: ustaw "Typ" w wierszu faktury na "Konto K/G"
-                SalesLine.Type := SalesLine.Type::"G/L Account";
+                SalesLine.Validate(SalesLine.Type, SalesLine.Type::"G/L Account");
                 //TODO: ustaw "Nr" w wierszu faktury na nr konta prowadzonego w "Ustawieniach sprzedaży i należn."
                 SalesLine.Validate("No.", SalesSetup."G/L Account No.");
 
                 //TODO: ustaw "ilość" w wierszu faktury na wartość 1
-                SalesLine.Validate(Quantity, 1);
-                SalesLine.Validate("Unit Price", SeminarRegLine.Amount);
+                SalesLine.Validate(SalesLine.Quantity, 1);
+                SalesLine.Validate(SalesLine."Unit Price", SeminarRegLine.Amount);
                 //TODO: wymuś przeliczenie wartości pola z "Nazwą uczestnika"
-                SeminarRegLine.CalcFields("Participant Name");
+                SeminarRegLine.CalcFields(SeminarRegLine."Participant Name");
                 SalesLine.Description := StrSubstNo(DescriptionTemplateTxt, SeminarRegLine."Seminar Registration No.", SeminarRegLine."Participant Name");
                 SalesLine.Insert();
                 SeminarRegLine."Invoice No." := SalesHeader."No.";
                 SeminarRegLine.Modify();
+
             until SeminarRegLine.Next() = 0;
         end;
 

@@ -133,6 +133,9 @@ page 50013 "Seminar Registration Card"
             {
                 Caption = 'Create sale invoice.';
                 ApplicationArea = All;
+                Image = Invoice;
+                Promoted = true;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
