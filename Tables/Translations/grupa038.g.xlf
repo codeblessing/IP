@@ -168,6 +168,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar - Field Seminar Price - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2143111931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Registration Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2143111931 - NamedType 1599990870" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting Date can be changed only if status is Planned</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1178,6 +1183,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel AmountLbl</note>
         </trans-unit>
+        <trans-unit id="Report 1173659623 - ReportLabel 3346049993" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel FalseLbl</note>
+        </trans-unit>
         <trans-unit id="Report 1173659623 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1187,6 +1197,16 @@
           <source>Seminar List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel TitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - ReportLabel 1428552256" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel TrueLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - Control 1667968475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - Control Show details - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1464225574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Participant List</source>

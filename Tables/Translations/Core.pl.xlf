@@ -474,7 +474,7 @@
           <source>Create sale invoice.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Action Create invoice. - Property Caption</note>
-          <target>Utwórz fakturę sprzedaży.</target>
+          <target>Utwórz fakturę sprzedaży</target>
         </trans-unit>
         <trans-unit id="Report 2328255014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer by Salesperson</source>
@@ -510,7 +510,7 @@
           <source>Seminar Participants List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel TitleLbl</note>
-          <target>Lista uczestników w ramach rejestracji</target>
+          <target>Lista uczestników szkolenia</target>
         </trans-unit>
         <trans-unit id="Report 1464225574 - ReportLabel 2410138484" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total participants</source>
@@ -529,6 +529,48 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel AmountLbl</note>
           <target>Kwota</target>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - ReportLabel 1420715300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Participants per registration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel ParticipantsPerRegistrationLbl</note>
+          <target>Liczba uczestników w ramach rejestracji</target>
+        </trans-unit>
+        <trans-unit id="Page 3081262998 - Action 1464225574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Participant List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Action Seminar Participant List - Property Caption</note>
+          <target>Lista uczestników szkolenia</target>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - Property Caption</note>
+          <target>Zestawienie szkoleń</target>
+        </trans-unit>
+        <trans-unit id="Table 2143111931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Registration Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - Property Caption</note>
+          <target>Nagłówek rejestracji szkoleń</target>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - Control 1667968475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - Control Show details - Property Caption</note>
+          <target>Pokaż szczegóły</target>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - ReportLabel 3346049993" size-unit="char" translate="yes" xml:space="preserve">
+          <source>False</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel FalseLbl</note>
+          <target>Nie</target>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - ReportLabel 1428552256" size-unit="char" translate="yes" xml:space="preserve">
+          <source>True</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel TrueLbl</note>
+          <target>Tak</target>
         </trans-unit>
       </group>
     </body>

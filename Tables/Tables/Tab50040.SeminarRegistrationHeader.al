@@ -1,5 +1,6 @@
 Table 50040 "Seminar Registration Header"
 {
+    Caption = 'Seminar Registration Header';
     fields
     {
         field(1; "No."; Code[20])

@@ -19,30 +19,30 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.55801in</Width>
+                  <Width>1.5223in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.05767in</Width>
+                  <Width>1.02196in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.06381in</Width>
+                  <Width>1.0281in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.96485in</Width>
+                  <Width>0.92914in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.88151in</Width>
+                  <Width>0.8458in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.10952in</Width>
+                  <Width>1.07381in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.83022in</Width>
+                  <Width>0.79451in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25417in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -241,7 +241,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.46875in</Height>
+                  <Height>0.47292in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -411,7 +411,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.37166in</Height>
+                  <Height>0.37583in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -654,7 +654,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.37921in</Height>
+                  <Height>0.38338in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -729,8 +729,10 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!ToInvoice__SeminarRegistrationLine.Value</Value>
-                                  <Style />
+                                  <Value>=if(Fields!ToInvoice__SeminarRegistrationLine.Value=true,Parameters!TrueLbl.Value,Parameters!FalseLbl.Value)</Value>
+                                  <Style>
+                                    <Language>pl-PL</Language>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -761,8 +763,10 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Participated_SeminarRegistrationLine.Value</Value>
-                                  <Style />
+                                  <Value>=if(Fields!Participated_SeminarRegistrationLine.Value=true,Parameters!TrueLbl.Value,Parameters!FalseLbl.Value)</Value>
+                                  <Style>
+                                    <Language>pl-PL</Language>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -782,6 +786,7 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -829,7 +834,7 @@
                                 <TextRun>
                                   <Value>=Fields!LineDiscount_SeminarRegistrationLine.Value</Value>
                                   <Style>
-                                    <Format>0.00;(0.00)</Format>
+                                    <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -889,7 +894,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25417in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1127,7 +1132,6 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
@@ -1166,10 +1170,16 @@
                       <KeepWithGroup>After</KeepWithGroup>
                     </TablixMember>
                     <TablixMember>
+                      <Visibility>
+                        <Hidden>=Not(Fields!ShowDetails.Value)</Hidden>
+                      </Visibility>
                       <KeepWithGroup>After</KeepWithGroup>
                     </TablixMember>
                     <TablixMember>
                       <Group Name="Details" />
+                      <Visibility>
+                        <Hidden>=Not(Fields!ShowDetails.Value)</Hidden>
+                      </Visibility>
                     </TablixMember>
                   </TablixMembers>
                 </TablixMember>
@@ -1180,9 +1190,9 @@
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
             <Top>0.12042in</Top>
-            <Left>0in</Left>
-            <Height>1.71962in</Height>
-            <Width>7.46559in</Width>
+            <Left>0.125in</Left>
+            <Height>1.74047in</Height>
+            <Width>7.21562in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1190,10 +1200,10 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>287mm</Height>
+        <Height>286mm</Height>
         <Style />
       </Body>
-      <Width>190mm</Width>
+      <Width>189mm</Width>
       <Page>
         <PageHeader>
           <Height>1in</Height>
@@ -1218,7 +1228,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox1</rd:DefaultName>
               <Top>0.0103in</Top>
-              <Left>0in</Left>
+              <Left>0.125in</Left>
               <Height>0.25in</Height>
               <Width>2.31742in</Width>
               <Style>
@@ -1247,7 +1257,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox1</rd:DefaultName>
               <Top>0.31586in</Top>
-              <Left>0in</Left>
+              <Left>0.125in</Left>
               <Height>0.25in</Height>
               <Width>2.31742in</Width>
               <ZIndex>1</ZIndex>
@@ -1281,7 +1291,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox1</rd:DefaultName>
               <Top>0.0103in</Top>
-              <Left>5.14817in</Left>
+              <Left>5.02317in</Left>
               <Height>0.25in</Height>
               <Width>2.31742in</Width>
               <ZIndex>2</ZIndex>
@@ -1313,7 +1323,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox1</rd:DefaultName>
               <Top>0.31586in</Top>
-              <Left>6.80781in</Left>
+              <Left>6.68281in</Left>
               <Height>0.25in</Height>
               <Width>0.65778in</Width>
               <ZIndex>3</ZIndex>
@@ -1345,7 +1355,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox1</rd:DefaultName>
               <Top>0.31586in</Top>
-              <Left>5.14817in</Left>
+              <Left>5.02317in</Left>
               <Height>0.25in</Height>
               <Width>1.60409in</Width>
               <ZIndex>4</ZIndex>
@@ -1377,7 +1387,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox1</rd:DefaultName>
               <Top>0.6353in</Top>
-              <Left>5.14817in</Left>
+              <Left>5.02317in</Left>
               <Height>0.25in</Height>
               <Width>2.31742in</Width>
               <ZIndex>5</ZIndex>
@@ -1435,6 +1445,24 @@
         </Values>
       </DefaultValue>
       <Prompt>PageLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="TrueLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>TrueLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>TrueLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="FalseLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>FalseLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>FalseLbl</Prompt>
     </ReportParameter>
     <ReportParameter Name="No_SeminarRegistrationHeaderCaption">
       <DataType>String</DataType>
@@ -1548,7 +1576,7 @@
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>15</NumberOfRows>
+      <NumberOfRows>17</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -1568,61 +1596,71 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>3</RowIndex>
-          <ParameterName>No_SeminarRegistrationHeaderCaption</ParameterName>
+          <ParameterName>TrueLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>4</RowIndex>
-          <ParameterName>StartingDate_SeminarRegistrationHeaderCaption</ParameterName>
+          <ParameterName>FalseLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>5</RowIndex>
-          <ParameterName>SeminarCode_SeminarRegistrationHeaderCaption</ParameterName>
+          <ParameterName>No_SeminarRegistrationHeaderCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>6</RowIndex>
-          <ParameterName>SeminarName_SeminarRegistrationHeaderCaption</ParameterName>
+          <ParameterName>StartingDate_SeminarRegistrationHeaderCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>7</RowIndex>
-          <ParameterName>Amount_SeminarRegistrationHeaderCaption</ParameterName>
+          <ParameterName>SeminarCode_SeminarRegistrationHeaderCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>8</RowIndex>
-          <ParameterName>ParticipantName_SeminarRegistrationLineCaption</ParameterName>
+          <ParameterName>SeminarName_SeminarRegistrationHeaderCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>9</RowIndex>
-          <ParameterName>ParticipantContactNo_SeminarRegistrationLineCaption</ParameterName>
+          <ParameterName>Amount_SeminarRegistrationHeaderCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>10</RowIndex>
-          <ParameterName>ToInvoice__SeminarRegistrationLineCaption</ParameterName>
+          <ParameterName>ParticipantName_SeminarRegistrationLineCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>11</RowIndex>
-          <ParameterName>Participated_SeminarRegistrationLineCaption</ParameterName>
+          <ParameterName>ParticipantContactNo_SeminarRegistrationLineCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>12</RowIndex>
-          <ParameterName>SeminarPrice_SeminarRegistrationLineCaption</ParameterName>
+          <ParameterName>ToInvoice__SeminarRegistrationLineCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>13</RowIndex>
-          <ParameterName>LineDiscount_SeminarRegistrationLineCaption</ParameterName>
+          <ParameterName>Participated_SeminarRegistrationLineCaption</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>14</RowIndex>
+          <ParameterName>SeminarPrice_SeminarRegistrationLineCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>15</RowIndex>
+          <ParameterName>LineDiscount_SeminarRegistrationLineCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>16</RowIndex>
           <ParameterName>Amount_SeminarRegistrationLineCaption</ParameterName>
         </CellDefinition>
       </CellDefinitions>
@@ -1720,6 +1758,9 @@ End Function
         </Field>
         <Field Name="Amount_SeminarRegistrationLineFormat">
           <DataField>Amount_SeminarRegistrationLineFormat</DataField>
+        </Field>
+        <Field Name="ShowDetails">
+          <DataField>ShowDetails</DataField>
         </Field>
       </Fields>
       <Query>

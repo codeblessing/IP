@@ -13,7 +13,7 @@ report 50010 "Seminar Participant List"
         {
             DataItemTableView = sorting("No.");
             RequestFilterFields = "No.";
-
+            PrintOnlyIfDetail = true;
             column(No_SeminarRegistrationHeader; "No.")
             {
                 IncludeCaption = true;

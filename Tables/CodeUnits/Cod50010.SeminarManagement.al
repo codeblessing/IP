@@ -39,7 +39,7 @@ Codeunit 50010 "Seminar Management"
                 //TODO: ogranicz przetwarzane SalesHeader tylko do dokumentów typu faktury
                 SalesHeader.SetRange("Document Type", SalesHeader."Document Type"::Invoice);
                 //TODO: ogranicz przetwarzane SalesHeader tylko do dokumentów wystawionych na nabywcę zgodnego z polem "Nr odbiorcy faktury" w wierszu rejestracji
-                SalesHeader.SetRange(SalesHeader."Bill-to Customer No.", SeminarRegLine."Bill-to Customer No.");
+                SalesHeader.SetRange(SalesHeader."Sell-to Customer No.", SeminarRegLine."Bill-to Customer No.");
                 SalesHeader.SetRange("External Document No.", PSeminarRegHeader."No.");
 
 

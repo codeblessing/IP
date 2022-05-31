@@ -12,7 +12,7 @@ report 50011 "Seminar List"
         dataitem("Seminar Registration Header"; "Seminar Registration Header")
         {
             DataItemTableView = sorting("No.");
-            RequestFilterFields = "No.";
+            RequestFilterFields = "Starting Date", "Seminar Code", Status;
             PrintOnlyIfDetail = true;
             column(No_SeminarRegistrationHeader; "No.")
             {
@@ -43,6 +43,7 @@ report 50011 "Seminar List"
             {
                 CalcFields = "Participant Name";
                 DataItemLink = "Seminar Registration No." = field("No.");
+                DataItemTableView = sorting("Seminar Registration No.");
                 column(ParticipantName_SeminarRegistrationLine; "Participant Name")
                 {
                     IncludeCaption = true;
@@ -71,15 +72,45 @@ report 50011 "Seminar List"
                 {
                     IncludeCaption = true;
                 }
+                column(ShowDetails; ShowDetails)
+                {
+
+                }
 
             }
         }
     }
+    requestpage
+    {
+        layout
+        {
+            area(Content)
+            {
+                field("Show details"; ShowDetails)
+                {
+                    Caption = 'Show Details';
+                    ApplicationArea = All;
 
+                }
+
+            }
+        }
+
+        actions
+        {
+
+        }
+    }
     labels
     {
         AmountLbl = 'Amount';
         TitleLbl = 'Seminar List';
         PageLbl = 'Page';
+        TrueLbl = 'Yes';
+
+        FalseLbl = 'No';
     }
+
+    var
+        ShowDetails: Boolean;
 }

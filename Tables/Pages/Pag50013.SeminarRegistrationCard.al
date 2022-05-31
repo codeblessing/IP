@@ -146,6 +146,10 @@ page 50013 "Seminar Registration Card"
                     Invoice.CreateSalesInvoice(Header);
                 end;
             }
+
+        }
+        area(Reporting)
+        {
             action("Seminar Participant List")
             {
                 Caption = 'Seminar Participant List';
