@@ -2,11 +2,9 @@ page 50015 "Seminar Manager"
 {
     Caption = 'Seminar Manager';
     PageType = RoleCenter;
-    layout
-    {
+    RefreshOnActivate = false;
 
 
-    }
     actions
     {
         area(Sections)
@@ -44,7 +42,8 @@ page 50015 "Seminar Manager"
                 Caption = 'Tasks';
                 action("Eksport uczestników szkolenia")
                 {
-
+                    ApplicationArea = All;
+                    RunObject = xmlport "Seminar Participants Exp XML";
                 }
             }
             group(Reports)
@@ -52,11 +51,13 @@ page 50015 "Seminar Manager"
                 Caption = 'Reports';
                 action("Lista uczestników szkolenia")
                 {
-
+                    ApplicationArea = All;
+                    RunObject = report "Seminar Participant List";
                 }
                 action("Zestawienie szkoleń")
                 {
-
+                    ApplicationArea = All;
+                    RunObject = report "Seminar List";
                 }
             }
         }

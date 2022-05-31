@@ -146,6 +146,20 @@ page 50013 "Seminar Registration Card"
                     Invoice.CreateSalesInvoice(Header);
                 end;
             }
+            action("Seminar Participant List")
+            {
+                Caption = 'Seminar Participant List';
+                ApplicationArea = All;
+                Image = Report;
+
+                trigger OnAction()
+                var
+                    SeminarRegistrationHeader: Record "Seminar Registration Header";
+                begin
+                    SeminarRegistrationHeader.SetRange("No.", Rec."No.");
+                    Report.RunModal(Report::"Seminar Participant List", true, false, SeminarRegistrationHeader);
+                end;
+            }
         }
     }
 

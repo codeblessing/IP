@@ -848,6 +848,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Action Create invoice. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3081262998 - Action 1464225574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Participant List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Registration Card - Action Seminar Participant List - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3800278800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Registration List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1147,6 +1152,66 @@
           <source>Specifies the value of the VIN field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control VIN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2328255014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer by Salesperson</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer by Salesperson - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2328255014 - ReportDataItem 3399585325 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer by Salesperson - ReportDataItem Salesperson/Purchaser - Property RequestFilterHeading</note>
+        </trans-unit>
+        <trans-unit id="Report 2328255014 - Control 1667968475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer by Salesperson - Control Show details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - ReportLabel 1245862610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel AmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1173659623 - ReportLabel 1582893390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar List - ReportLabel TitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Participant List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - ReportLabel 1420715300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Participants per registration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel ParticipantsPerRegistrationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - ReportLabel 1582893390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Participants List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel TitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1464225574 - ReportLabel 2410138484" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total participants</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel TotalLbl</note>
         </trans-unit>
         <trans-unit id="TableExtension 4075462835 - Field 3852983238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>G/L Account No.</source>
