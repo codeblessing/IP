@@ -708,7 +708,7 @@
           <source>Do you want to change seminar price?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - NamedType ResponseConfirmMessage</note>
-          <target>Czy chcesz zmienić cenę szkolenia?</target>
+          <target>Czy chcesz zmienić cenę szkolenia w wierszach?</target>
         </trans-unit>
         <trans-unit id="Table 2143111931 - NamedType 3268077726" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar is cancelled.</source>
@@ -720,31 +720,31 @@
           <source>Export G/L Account to XML</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Export G/L Account to XML - Property Caption</note>
-          <target>Exportuj konta K/G do XML.</target>
+          <target>Exportuj konta K/G do XML</target>
         </trans-unit>
         <trans-unit id="Page 629907935 - Action 3460761827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Vehicles from XML</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Import Vehicles from XML - Property Caption</note>
-          <target>Importuj Pojazdy z XML.</target>
+          <target>Importuj Pojazdy z XML</target>
         </trans-unit>
         <trans-unit id="Page 629907935 - Action 1638863865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Export G/L Account Fixed</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Export G/L Account Fixed - Property Caption</note>
-          <target>Exportuj konta K/G do formatu tekstowego.</target>
+          <target>Exportuj konta K/G do formatu tekstowego</target>
         </trans-unit>
         <trans-unit id="Page 629907935 - Action 3637493073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Export G/L Account Variable</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Export G/L Account Variable - Property Caption</note>
-          <target>Exportuj konta K/G do formatu tekstowego csv.</target>
+          <target>Exportuj konta K/G do formatu tekstowego csv</target>
         </trans-unit>
         <trans-unit id="Page 629907935 - Action 417752332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Vehicles Fixed</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Import Vehicles Fixed - Property Caption</note>
-          <target>Importuj pojazdy z pliku csv.</target>
+          <target>Importuj pojazdy z pliku csv</target>
         </trans-unit>
       </group>
     </body>

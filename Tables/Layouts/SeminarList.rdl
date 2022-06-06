@@ -19,25 +19,25 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.5223in</Width>
+                  <Width>38.19831mm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.02196in</Width>
+                  <Width>25.48968mm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.0281in</Width>
+                  <Width>25.64563mm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.92914in</Width>
+                  <Width>23.13205mm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.8458in</Width>
+                  <Width>21.01521mm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.07381in</Width>
+                  <Width>26.80667mm</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.79451in</Width>
+                  <Width>19.71245mm</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -786,7 +786,6 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -1189,10 +1188,10 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
-            <Top>0.12042in</Top>
-            <Left>0.125in</Left>
+            <Top>0.24542in</Top>
+            <Left>5mm</Left>
             <Height>1.74047in</Height>
-            <Width>7.21562in</Width>
+            <Width>180mm</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1200,10 +1199,10 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>286mm</Height>
+        <Height>260mm</Height>
         <Style />
       </Body>
-      <Width>189mm</Width>
+      <Width>190mm</Width>
       <Page>
         <PageHeader>
           <Height>1in</Height>

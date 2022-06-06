@@ -30,7 +30,6 @@ report 50011 "Seminar List"
             {
                 IncludeCaption = true;
             }
-
             column(CompanyName; CompanyName())
             {
 
@@ -90,15 +89,8 @@ report 50011 "Seminar List"
                 {
                     Caption = 'Show Details';
                     ApplicationArea = All;
-
                 }
-
             }
-        }
-
-        actions
-        {
-
         }
     }
     labels

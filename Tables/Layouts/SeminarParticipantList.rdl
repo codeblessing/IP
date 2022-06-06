@@ -1216,13 +1216,13 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>287mm</Height>
+        <Height>260mm</Height>
         <Style />
       </Body>
       <Width>190mm</Width>
       <Page>
         <PageHeader>
-          <Height>1.00906in</Height>
+          <Height>1in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -1364,7 +1364,9 @@
                       <Style />
                     </TextRun>
                   </TextRuns>
-                  <Style />
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox4</rd:DefaultName>

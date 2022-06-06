@@ -3,6 +3,8 @@ xmlport 50005 "Seminar Participants Exp XML"
     Direction = Export;
     Format = Xml;
     UseRequestPage = true;
+    Caption = 'Seminar Participants Exp XML';
+
     schema
     {
         textelement(Seminar_Registration_Participant_List)
@@ -11,8 +13,6 @@ xmlport 50005 "Seminar Participants Exp XML"
             tableelement(Seminar_Registration_Header; "Seminar Registration Header")
             {
                 XmlName = 'Seminar';
-
-
                 fieldelement(Registration_No; Seminar_Registration_Header."No.")
                 {
 

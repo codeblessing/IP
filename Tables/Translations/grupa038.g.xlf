@@ -1233,6 +1233,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel TotalLbl</note>
         </trans-unit>
+        <trans-unit id="XmlPort 1267078297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Participants Exp XML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Seminar Participants Exp XML - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 4075462835 - Field 3852983238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>G/L Account No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
