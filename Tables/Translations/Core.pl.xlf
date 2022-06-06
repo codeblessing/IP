@@ -284,12 +284,6 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - Field Amount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2235904756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Seminar Registration Line </source>
-          <target>Wiersz rejestracji szkoleń</target>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 2235904756 - Field 571466171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Registration No.</source>
           <target>Nr rejejestracji szkolenia</target>
@@ -583,6 +577,24 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Instructor - Field Worker/Subcontractor - Property OptionCaption</note>
           <target>Pracownik,Podwykonawca</target>
+        </trans-unit>
+        <trans-unit id="Page 845999677 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Card - Control General - Property Caption</note>
+          <target>Ogólne</target>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Registration Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - Property Caption</note>
+          <target>Wiersz rejestracji szkoleń</target>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - NamedType 1010768044" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount amount can not be bigger than seminar price.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType OjojojojError</note>
+          <target>Kwota zniżki nie może być większa od ceny szkolenia.</target>
         </trans-unit>
       </group>
     </body>

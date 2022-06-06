@@ -4,7 +4,7 @@ page 50007 "Seminar Card"
     PageType = Card;
     SourceTable = Seminar;
     UsageCategory = Documents;
-
+    ApplicationArea = All;
 
     layout
     {
@@ -12,6 +12,7 @@ page 50007 "Seminar Card"
         {
             group(General)
             {
+                Caption = 'General';
                 field("Code"; Rec."Code")
                 {
                     ToolTip = 'Specifies the value of the Code field.';

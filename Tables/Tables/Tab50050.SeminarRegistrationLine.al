@@ -1,5 +1,6 @@
 Table 50050 "Seminar Registration Line"
 {
+    Caption = 'Seminar Registration Line';
 
     fields
     {
@@ -7,7 +8,6 @@ Table 50050 "Seminar Registration Line"
         {
             Caption = 'Seminar Registration No.';
             TableRelation = "Seminar Registration Header";
-
         }
         field(2; "Line No."; Integer)
         {
@@ -27,10 +27,9 @@ Table 50050 "Seminar Registration Line"
 
                 if SeminarRegistrationHeader.Get("Seminar Registration No.") then begin
                     if "Seminar Registration No." <> '' then begin
-                        "Seminar Price" := SeminarRegistrationHeader."Seminar Price";
-                        Amount := "Seminar Price" - "Line Discount Amount";
+                        Validate("Seminar Price", SeminarRegistrationHeader."Seminar Price");
+                        Validate(Amount, "Seminar Price" - "Line Discount Amount");
                     end;
-
                 end;
             end;
         }
@@ -65,6 +64,7 @@ Table 50050 "Seminar Registration Line"
             Caption = 'Participant Name';
             FieldClass = FlowField;
             CalcFormula = lookup(Contact.Name where("No." = field("Participant Contact No.")));
+            Editable = false;
         }
         field(6; "Register Date"; Date)
         {
@@ -91,8 +91,8 @@ Table 50050 "Seminar Registration Line"
 
             trigger OnValidate()
             begin
-                "Line Discount Amount" := "Seminar Price" * "Line Discount %" / 100;
-                Amount := "Seminar Price" - "Line Discount Amount";
+                Validate("Line Discount Amount", "Seminar Price" * "Line Discount %" / 100);
+                Validate(Amount, "Seminar Price" - "Line Discount Amount");
             end;
         }
         field(11; "Line Discount %"; Decimal)
@@ -106,8 +106,8 @@ Table 50050 "Seminar Registration Line"
             var
                 SeminarRegistrationHeader: Record "Seminar Registration Header";
             begin
-                "Line Discount Amount" := "Seminar Price" * "Line Discount %" / 100;
-                Amount := "Seminar Price" - "Line Discount Amount";
+                Validate("Line Discount Amount", "Seminar Price" * "Line Discount %" / 100);
+                Validate(Amount, "Seminar Price" - "Line Discount Amount");
                 if SeminarRegistrationHeader.Get("Seminar Registration No.") then begin
                     SeminarRegistrationHeader.UpdateAmount();
                     SeminarRegistrationHeader.CalcFields(Amount);
@@ -118,16 +118,23 @@ Table 50050 "Seminar Registration Line"
         {
             Caption = 'Line Discount Amount';
             AutoFormatType = 1;
+            MinValue = 0;
+
             trigger OnValidate()
             var
                 SeminarRegistrationHeader: Record "Seminar Registration Header";
             begin
-                "Line Discount %" := "Line Discount Amount" / "Seminar Price" * 100;
-                Amount := "Seminar Price" - "Line Discount Amount";
-                if SeminarRegistrationHeader.Get("Seminar Registration No.") then begin
-                    SeminarRegistrationHeader.UpdateAmount();
-                    SeminarRegistrationHeader.CalcFields(Amount);
+                if "Line Discount Amount" < "Seminar Price" then begin
+                    "Line Discount %" := "Line Discount Amount" / "Seminar Price" * 100;
+                    Amount := "Seminar Price" - "Line Discount Amount";
+                    if SeminarRegistrationHeader.Get("Seminar Registration No.") then begin
+                        SeminarRegistrationHeader.UpdateAmount();
+                        SeminarRegistrationHeader.CalcFields(Amount);
+                    end;
+                end else begin
+                    Error(OjojojojError);
                 end;
+
             end;
         }
         field(13; Amount; Decimal)
@@ -154,8 +161,12 @@ Table 50050 "Seminar Registration Line"
             trigger OnValidate()
             var
             begin
-                if "Register Date" = 0D then
-                    "Register Date" := WorkDate();
+                if Registered then begin
+                    if "Register Date" = 0D then
+                        Validate("Register Date", WorkDate());
+                end else begin
+                    Validate("Register Date", 0D);
+                end;
             end;
         }
         field(15; "Invoice No."; Code[20])
@@ -179,6 +190,8 @@ Table 50050 "Seminar Registration Line"
         RegisteredRecordCannotBeDeleted: label 'Registered record cannot be deleted.';
 
         BillChangeIfNotRegistered: label 'Cannot change Bill-to Customer No. if record is not registered.';
+
+        OjojojojError: label 'Discount amount can not be bigger than seminar price.';
 
 
     trigger OnModify()

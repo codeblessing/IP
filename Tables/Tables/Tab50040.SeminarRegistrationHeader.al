@@ -1,6 +1,7 @@
 Table 50040 "Seminar Registration Header"
 {
     Caption = 'Seminar Registration Header';
+    LookupPageId = "Seminar Registration List";
     fields
     {
         field(1; "No."; Code[20])
@@ -51,8 +52,6 @@ Table 50040 "Seminar Registration Header"
                         if SeminarRegLine.Registered then
                             Error(SeminarWithRegisteredLinesModifyErr);
                     until SeminarRegLine.Next() = 0;
-
-
             end;
         }
         field(4; "Seminar Name"; Text[50])

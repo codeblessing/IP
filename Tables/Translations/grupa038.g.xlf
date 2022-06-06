@@ -308,10 +308,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Header - Field Status - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Table 2235904756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Registration Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2235904756 - NamedType 2054973617" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cannot change Bill-to Customer No. if record is not registered.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType BillChangeIfNotRegistered</note>
+        </trans-unit>
+        <trans-unit id="Table 2235904756 - NamedType 1010768044" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount amount can not be bigger than seminar price.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType OjojojojError</note>
         </trans-unit>
         <trans-unit id="Table 2235904756 - NamedType 1579366658" size-unit="char" translate="yes" xml:space="preserve">
           <source>Registered record cannot be deleted.</source>
@@ -617,6 +627,11 @@
           <source>Seminar Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 845999677 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Card - Control General - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 845999677 - Control 3543129988 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Blocked field.</source>

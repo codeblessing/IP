@@ -67,9 +67,7 @@ report 50010 "Seminar Participant List"
     {
         TitleLbl = 'Seminar Participants List';
         PageLbl = 'Page';
-
         ParticipantsPerRegistrationLbl = 'Participants per registration';
-
         TotalLbl = 'Total participants';
     }
 

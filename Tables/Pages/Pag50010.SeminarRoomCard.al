@@ -4,6 +4,7 @@ page 50010 "Seminar Room Card"
     PageType = Card;
     SourceTable = "Seminar Room";
     UsageCategory = Documents;
+    ApplicationArea = All;
 
 
     layout

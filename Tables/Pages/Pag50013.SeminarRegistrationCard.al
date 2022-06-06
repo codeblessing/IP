@@ -4,6 +4,7 @@ page 50013 "Seminar Registration Card"
     PageType = Card;
     SourceTable = "Seminar Registration Header";
     UsageCategory = Documents;
+    ApplicationArea = All;
 
     layout
     {

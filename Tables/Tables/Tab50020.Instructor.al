@@ -1,6 +1,7 @@
 Table 50020 "Instructor"
 {
     Caption = 'Instructor';
+    LookupPageId = Instructors;
     fields
     {
         field(1; "Code"; Code[20])
@@ -24,7 +25,6 @@ Table 50020 "Instructor"
                     "Resource No." := '';
                     "Vendor No." := '';
                 end;
-
             end;
         }
         field(4; "Resource No."; Code[20])
@@ -37,7 +37,7 @@ Table 50020 "Instructor"
                 Resource: Record Resource;
             begin
                 if Resource.Get("Resource No.") then
-                    Name := Resource.Name
+                    Validate(Name, Resource.Name);
             end;
 
 
@@ -52,7 +52,7 @@ Table 50020 "Instructor"
                 Vendor: Record Vendor;
             begin
                 if Vendor.Get("Vendor No.") then
-                    Name := Vendor.Name
+                    Validate(Name, Vendor.Name);
             end;
         }
     }

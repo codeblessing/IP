@@ -2,6 +2,7 @@ Table 50010 Seminar
 {
     Caption = 'Seminar';
     DataCaptionFields = "Code", Name;
+    LookupPageId = "Seminar List";
 
     fields
     {
@@ -44,14 +45,11 @@ Table 50010 Seminar
         {
             Caption = 'Last Date Modified';
             Editable = false;
-
-
         }
         field(9; "Seminar Price"; Decimal)
         {
             Caption = 'Seminar Price';
         }
-
     }
 
     keys

@@ -73,12 +73,8 @@ xmlport 50005 "Seminar Participants Exp XML"
                     {
 
                     }
-
-
                 }
-
             }
-
         }
     }
 }

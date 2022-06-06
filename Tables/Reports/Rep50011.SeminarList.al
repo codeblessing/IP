@@ -75,7 +75,6 @@ report 50011 "Seminar List"
                 {
 
                 }
-
             }
         }
     }
