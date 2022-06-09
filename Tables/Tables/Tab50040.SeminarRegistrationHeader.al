@@ -160,9 +160,11 @@ Table 50040 "Seminar Registration Header"
             var
                 SeminarRegLine: Record "Seminar Registration Line";
                 response: Boolean;
+                currentPrice: Decimal;
             begin
                 if Status <> Status::Cancelled then begin
                     response := Confirm(ResponseConfirmMessage);
+                    currentPrice := "Seminar Price";
 
                     if response then begin
                         SeminarRegLine.Reset();
@@ -173,6 +175,8 @@ Table 50040 "Seminar Registration Header"
                                     SeminarRegLine.UpdatePrices("Seminar Price");
                             until SeminarRegLine.Next() = 0;
                         Rec.CalcFields(Amount);
+                    end else begin
+                        "Seminar Price" := xRec."Seminar Price";
                     end;
                 end else begin
                     Message(SemiarCancelled);
