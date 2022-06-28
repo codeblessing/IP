@@ -3,6 +3,36 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="grupa038">
     <body>
       <group id="body">
+        <trans-unit id="Table 3940608324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AccountMapSettings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AccountMapSettings - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3940608324 - Field 3517171529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. (BC)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AccountMapSettings - Field No. (BC) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3940608324 - Field 1848601698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. (Symfonia)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AccountMapSettings - Field No. (Symfonia) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3438036847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ImportBuffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ImportBuffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3438036847 - Field 2750044929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ImportBuffer - Field Line Content - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3438036847 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ImportBuffer - Field Line No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 4239863583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Instructor</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -468,6 +498,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Room - Field Post Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1656821861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settings Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Settings Table - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1656821861 - Field 4276979203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Settings Table - Field Instance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1656821861 - Field 3679062379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Settings Table - Field Journal Template - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1193173812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vehicle</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -523,10 +568,65 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Seminar Management - NamedType InvoiceNotCreatedMsg</note>
         </trans-unit>
-        <trans-unit id="Page 1670044723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Blank Page</source>
+        <trans-unit id="Page 2072052313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AccountMapList</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page BlankPage - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AccountMapList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2072052313 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AccountMapList - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2072052313 - Control 3517171529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. (BC) field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AccountMapList - Control No. (BC) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072052313 - Control 1848601698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. (Symfonia) field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AccountMapList - Control No. (Symfonia) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Action 3930027771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Action Lists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Action 2501899311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Action Import buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Action 4152451596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import settings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Action Import settings - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Action 3890505194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Action Map accounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2708606169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ImportBufferList</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ImportBufferList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2708606169 - Control 2750044929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Content field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ImportBufferList - Control Line Content - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2708606169 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ImportBufferList - Control Line No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2757097226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Instructors</source>
@@ -592,36 +692,6 @@
           <source>My Customer List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page My Customer List - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 72314273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sales Transactions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Transactions - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 72314273 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Amount field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Transactions - Control Amount - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 72314273 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Line No. field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Transactions - Control Line No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 72314273 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the No. field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Transactions - Control No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 72314273 - Control 553464652 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Salesperson Code field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Transactions - Control Salesperson Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 72314273 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Type field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Transactions - Control Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 845999677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Card</source>
@@ -1098,6 +1168,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Seminar Room List - Control Post Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 30779081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settings List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Settings List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 30779081 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Settings List - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 30779081 - Control 4276979203 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Instance field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Settings List - Control Instance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 30779081 - Control 3679062379 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Journal Template field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Settings List - Control Journal Template - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 629907935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Test Page</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1137,41 +1227,6 @@
           <source>Import Vehicles from XML</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Action Import Vehicles from XML - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 405542470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vehicle List</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 405542470 - Control 3850414055 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Date of Manufacturing field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control Date of Manufacturing - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 405542470 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Description field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control Description - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 405542470 - Control 1612702897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the List Price field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control List Price - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 405542470 - Control 1695122201 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Model field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control Model - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 405542470 - Control 532835786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Transmission field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control Transmission - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 405542470 - Control 3582544635 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the VIN field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control VIN - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 2328255014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer by Salesperson</source>
@@ -1248,6 +1303,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Seminar Participant List - ReportLabel TotalLbl</note>
         </trans-unit>
+        <trans-unit id="XmlPort 3764627543 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BufferImportTxt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort BufferImportTxt - Property Caption</note>
+        </trans-unit>
         <trans-unit id="XmlPort 1267078297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Participants Exp XML</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1272,6 +1332,11 @@
           <source>G/L Account,Item,Resource</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Salesperson Ext. - Field Type Filter - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Profile 2308989002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile Import Manager - Property Caption</note>
         </trans-unit>
         <trans-unit id="Profile 4119905856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar Manager</source>
