@@ -32,6 +32,7 @@ page 50019 ImportBufferList
         {
             action(Import)
             {
+                Caption = 'Import';
                 Image = ImportChartOfAccounts;
                 trigger OnAction()
                 var
@@ -39,6 +40,20 @@ page 50019 ImportBufferList
                 begin
                     importBuffer.DeleteAll();
                     Xmlport.Run(Xmlport::BufferImportTxt);
+                end;
+            }
+            action("Create Journal Lines")
+            {
+                Caption = 'Create Journal Lines';
+                Image = Create;
+                trigger OnAction()
+                var
+                    journalLines: Codeunit CreateJournalLines;
+                    importBuffer: Record ImportBuffer;
+                begin
+                    importBuffer.SetRange("Line No.");
+                    journalLines.CreateJournalLines(importBuffer);
+
                 end;
             }
         }

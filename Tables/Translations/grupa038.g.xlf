@@ -628,6 +628,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ImportBufferList - Control Line No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2708606169 - Action 3116612316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Journal Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ImportBufferList - Action Create Journal Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2708606169 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ImportBufferList - Action Import - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2757097226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Instructors</source>
           <note from="Developer" annotates="general" priority="2"></note>
