@@ -30,22 +30,11 @@ page 50019 ImportBufferList
     {
         area(Processing)
         {
-            action(Import)
-            {
-                Caption = 'Import';
-                Image = ImportChartOfAccounts;
-                trigger OnAction()
-                var
-                    importBuffer: Record ImportBuffer;
-                begin
-                    importBuffer.DeleteAll();
-                    Xmlport.Run(Xmlport::BufferImportTxt);
-                end;
-            }
+
             action("Create Journal Lines")
             {
                 Caption = 'Create Journal Lines';
-                Image = Create;
+                Image = GetLines;
                 trigger OnAction()
                 var
                     journalLines: Codeunit CreateJournalLines;
@@ -53,7 +42,19 @@ page 50019 ImportBufferList
                 begin
                     importBuffer.SetRange("Line No.");
                     journalLines.CreateJournalLines(importBuffer);
-
+                    importBuffer.DeleteAll();
+                end;
+            }
+            action(Import)
+            {
+                Caption = 'Import';
+                Image = WageLines;
+                trigger OnAction()
+                var
+                    importBuffer: Record ImportBuffer;
+                begin
+                    importBuffer.DeleteAll();
+                    Xmlport.Run(Xmlport::BufferImportTxt);
                 end;
             }
         }

@@ -553,6 +553,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Field VIN - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2642672452 - NamedType 1048323203" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal lines created, document No. %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreateJournalLines - NamedType messageLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1997620480 - NamedType 187372530" size-unit="char" translate="yes" xml:space="preserve">
           <source>Seminar '%1' participant '%2'</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -596,6 +596,142 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Seminar Registration Line - NamedType OjojojojError</note>
           <target>Kwota zniżki nie może być większa od ceny szkolenia.</target>
         </trans-unit>
+        <trans-unit id="Profile 2308989002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile Import Manager - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Profile 4119905856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile Seminar Manager - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2708606169 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ImportBufferList - Action Import - Property Caption</note>
+          <target>Importuj płace</target>
+        </trans-unit>
+        <trans-unit id="Page 2708606169 - Action 3116612316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Journal Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ImportBufferList - Action Create Journal Lines - Property Caption</note>
+          <target>Utwórz wiersze dziennika</target>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Action 2501899311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Action Import buffer - Property Caption</note>
+          <target>Bufor importu płac</target>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Action 4152451596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import settings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Action Import settings - Property Caption</note>
+          <target>Ustawienia importu</target>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Action 3890505194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Action Map accounts - Property Caption</note>
+          <target>Mapowanie numerów kont</target>
+        </trans-unit>
+        <trans-unit id="Page 2708606169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ImportBufferList</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ImportBufferList - Property Caption</note>
+          <target>Bufor importu</target>
+        </trans-unit>
+        <trans-unit id="Page 2072052313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AccountMapList</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AccountMapList - Property Caption</note>
+          <target>Ustawienia mapowania kont</target>
+        </trans-unit>
+        <trans-unit id="Page 2072052313 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AccountMapList - Control General - Property Caption</note>
+          <target>Ogólne</target>
+        </trans-unit>
+        <trans-unit id="Page 2072052313 - Control 3517171529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. (BC) field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AccountMapList - Control No. (BC) - Property ToolTip</note>
+          <target>Określa wartość pola Nr konta (BC).</target>
+        </trans-unit>
+        <trans-unit id="Page 2072052313 - Control 1848601698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. (Symfonia) field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AccountMapList - Control No. (Symfonia) - Property ToolTip</note>
+          <target>Określa wartość pola Nr konta (Symfonia).</target>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Property Caption</note>
+          <target>Manager importu płac</target>
+        </trans-unit>
+        <trans-unit id="Profile 2308989002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile Import Manager - Property Caption</note>
+          <target>Manager importu płac</target>
+        </trans-unit>
+        <trans-unit id="Page 2308989002 - Action 3930027771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Import Manager - Action Lists - Property Caption</note>
+          <target>Listy</target>
+        </trans-unit>
+        <trans-unit id="Table 1656821861 - Field 3679062379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Settings Table - Field Journal Template - Property Caption</note>
+          <target>Szablon dziennika</target>
+        </trans-unit>
+        <trans-unit id="Table 1656821861 - Field 4276979203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Instance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Settings Table - Field Instance - Property Caption</note>
+          <target>Nazwa instancji</target>
+        </trans-unit>
+        <trans-unit id="Page 30779081 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Settings List - Control General - Property Caption</note>
+          <target>Ogólne</target>
+        </trans-unit>
+        <trans-unit id="Table 3940608324 - Field 3517171529 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. (BC)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AccountMapSettings - Field No. (BC) - Property Caption</note>
+          <target>Nr konta (BC)</target>
+        </trans-unit>
+        <trans-unit id="Table 3940608324 - Field 1848601698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. (Symfonia)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AccountMapSettings - Field No. (Symfonia) - Property Caption</note>
+          <target>Nr konta (Symfonia)</target>
+        </trans-unit>
+        <trans-unit id="Table 3438036847 - Field 2750044929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ImportBuffer - Field Line Content - Property Caption</note>
+          <target>Zawartość linii</target>
+        </trans-unit>
+        <trans-unit id="Table 3438036847 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ImportBuffer - Field Line No. - Property Caption</note>
+          <target>Nr linii</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2642672452 - NamedType 1048323203" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Journal lines created, document No. %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CreateJournalLines - NamedType messageLbl</note>
+          <target>Utworzono wiersze dziennika, numer dokumentu %1</target>
+        </trans-unit>
       </group>
     </body>
   </file>

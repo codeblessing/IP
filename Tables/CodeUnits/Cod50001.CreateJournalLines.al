@@ -1,12 +1,5 @@
 codeunit 50001 CreateJournalLines
 {
-
-    trigger OnRun()
-    begin
-
-    end;
-
-
     procedure CreateJournalLines(importBuffer: Record ImportBuffer)
     var
         id: Integer;
@@ -27,10 +20,20 @@ codeunit 50001 CreateJournalLines
         parallel: Code[10];
         second: Boolean;
         dateOper: Date;
-    //importBuff: Record ImportBuffer;
+        GenJnlBatch: Record "Gen. Journal Batch";
+        NoSeriesMgt: Codeunit NoSeriesManagement;
+        seriesNo: Code[20];
+        importSettings: Record "Settings Table";
+        generalJournalLink: Page "General Journal";
+        url: Text;
+        decision: Integer;
     begin
-
-        Message('%1', generalJournalLine.Count());
+        importSettings.FindFirst();
+        Clear(NoSeriesMgt);
+        //get batch
+        GenJnlBatch.Get(importSettings."Journal Template", importSettings.Instance);
+        //get series number
+        seriesNo := NoSeriesMgt.TryGetNextNo(GenJnlBatch."No. Series", WorkDate());
         if importBuffer.FindSet() then begin
             repeat
                 second := false;
@@ -45,16 +48,14 @@ codeunit 50001 CreateJournalLines
                         if position > 0 then begin
                             Evaluate(dateOper, DelStr(tempFileLine, position, 10));
                         end;
-
                     until (importBuffer.Next() = 0) or (StrPos(importBuffer."Line Content", 'OBSŁUGUJJAK') > 0);
-                    //Message(importBuffer."Line Content");
+                    seriesNo := NoSeriesMgt.TryGetNextNo(GenJnlBatch."No. Series", dateOper);
                 end;
                 if importBuffer."Line Content" = 'ZAPIS{' then begin
                     repeat
                         tempFileLine := importBuffer."Line Content";
                         position := StrPos(tempFileLine, 'WN/MA =');
                         if position > 0 then begin
-
                             side := DelStr(tempFileLine, position, 7);
                         end;
                         if side = 'WN' then begin
@@ -64,7 +65,6 @@ codeunit 50001 CreateJournalLines
                             end;
                             position := StrPos(tempFileLine, 'KWOTA =');
                             if position > 0 then begin
-
                                 Evaluate(amountWn, DelStr(ConvertStr(tempFileLine, '.', ','), position, 7));
                             end;
                             position := StrPos(tempFileLine, 'KONTO =');
@@ -73,7 +73,6 @@ codeunit 50001 CreateJournalLines
                                 accountNoWn := DelStr(tempFileLine, position, 7);
                             end;
                         end else
-
                             if side = 'MA' then begin
                                 tempFileLine := importBuffer."Line Content";
                                 position := StrPos(tempFileLine, 'OPIS =');
@@ -82,20 +81,15 @@ codeunit 50001 CreateJournalLines
                                 end;
                                 position := StrPos(tempFileLine, 'KWOTA =');
                                 if position > 0 then begin
-
                                     Evaluate(amountMa, DelStr(ConvertStr(tempFileLine, '.', ','), position, 7));
                                 end;
                                 position := StrPos(tempFileLine, 'KONTO =');
                                 if position > 0 then begin
-
                                     accountNoMa := DelStr(tempFileLine, position, 7);
                                 end;
                             end;
-
-
                         position := StrPos(tempFileLine, 'RÓWNOLEGŁY =');
                         if position > 0 then begin
-
                             parallel := DelStr(tempFileLine, position, 12);
                         end;
                         if (not second) and (StrPos(importBuffer."Line Content", 'RÓWNOLEGŁY =') > 0) then begin
@@ -109,27 +103,33 @@ codeunit 50001 CreateJournalLines
                     generalJournalLine.SetRange("Journal Batch Name", 'PŁACE');
                     if generalJournalLine.FindLast() then begin
                         lineNo := generalJournalLine."Line No.";
-
                     end;
                     lineNo := lineNo + 1;
-                    Clear(generalJournalLine);
                     generalJournalLine."Line No." := lineNo;
-                    generalJournalLine."Journal Template Name" := 'PK';
-                    generalJournalLine."Journal Batch Name" := 'PŁACE';
-                    generalJournalLine."Document No." := 'PK/10/01/004';
-                    generalJournalLine.Description := descriptionwn;
+                    generalJournalLine."Journal Template Name" := importSettings."Journal Template";
+                    generalJournalLine."Journal Batch Name" := importSettings.Instance;
+                    generalJournalLine."Document No." := seriesNo;
+                    generalJournalLine.Description := descriptionWn;
                     generalJournalLine.Amount := amountWn;
                     generalJournalLine."Account No." := accountNoWn;
                     generalJournalLine."Bal. Account No." := accountNoMa;
                     generalJournalLine."Posting Date" := WorkDate();
-                    //Message(documentName);
                     generalJournalLine.Insert();
-
                 end;
             until importBuffer.Next() = 0;
+            Dialog.Message(messageLbl, seriesNo);
+            decision := Dialog.StrMenu('Tak, Nie', 1, 'Czy chcesz przejść do listy dzienników główych?');
+            if decision = 1 then begin
+                Page.Run(39);
+            end;
         end;
 
 
     end;
+
+    var
+        messageLbl: Label 'Journal lines created, document No. %1';
+
+
 
 }
